@@ -1,0 +1,82 @@
+.Score {
+    padding-top: 127px;
+}
+
+.score-genre-container {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.scoreSwiper {
+    width: 100%;
+    padding-top: 32px;
+
+}
+
+.scoreSwiper .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 660px;
+    height: 640px;
+}
+
+.scoreSwiper .swiper-slide .game-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.scoreSwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.scoreSwiper .swiper-slide .game-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scoreSwiper .swiper-slide .game-info strong {
+    color: #7EFF50;
+    font-family: Lato;
+    font-size: 128px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.scoreSwiper .swiper-slide .game-info h3 {
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -0.68px;
+}
+
+.scoreSwiper .swiper-slide .game-info p {
+    line-height: 1.4;
+    opacity: 0.9;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+    white-space: pre-wrap;
+}

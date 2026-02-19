@@ -1,0 +1,136 @@
+/* 전체 컨테이너 */
+.friend-list-wrap {
+    width: 345px;
+    /* max-width: 350px; */
+    /* height: 587px; */
+    background:rgba(0, 0, 0, 0.65); 
+    padding: 45px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/* 상단 타이틀 영역 */
+.friend-list-header {
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.title-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-title {
+    font-size: 16px;
+}
+
+
+.title-group {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 10px; 
+}
+/* 상단 이동 버튼 */
+.title-group h3 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+/* 초록색 원형 화살표 버튼 추가 */
+.title-group a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #7EFF50; /* 시그니처 연두색 */
+    border-radius: 50%;
+    color: #282828; /* 내부 화살표 색상 */
+    font-size: 20px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+/* 친구 리스트 영역 */
+.friend-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 개별 친구 항목 */
+.friend-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+   
+}
+
+.friend-item:last-child {
+    border-bottom: none;
+}
+
+.friend-item:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+/* 프로필 이미지 박스 */
+.profile-box {
+    position: relative;
+    margin-right: 15px;
+    /* flex-shrink: 0; */
+}
+
+.profile-box img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 온라인 상태 점 */
+.status-dot {
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    width: 12px;
+    height: 12px;
+    background-color: #1EFF00; 
+    border-radius: 50%;
+    border: 2px solid #1e1414; /* 배경색과 맞춰서 도드라지게 */
+   
+}
+
+/* 텍스트 정보 영역 */
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 40px;
+    
+}
+
+.user-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.user-nickname {
+    font-size: 16px;
+    color: #C0C0C0;
+    margin: 0;
+}

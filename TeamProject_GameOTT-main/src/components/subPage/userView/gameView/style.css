@@ -1,0 +1,48 @@
+.photo {
+    width: 872px;
+    height: 587px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden; /* 이미지가 박스를 벗어나지 않게 */
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; /* 이미지가 찌그러지지 않고 박스에 꽉 차게 */
+    
+}
+
+/* 텍스트를 이미지 위로 올리기 */
+.photo h3 {
+    position: absolute;
+    bottom: 80px; /* 아래에서 80px 띄움 */
+    left: 30px;
+    font-size: 34px;
+    color: #fff;   /* 흰색 글자가 잘 보입니다 */
+    z-index: 10;   /* 이미지보다 위에 배치 */
+    margin: 0;
+}
+
+.photo p {
+    position: absolute;
+    bottom: 40px; /* 아래에서 40px 띄움 */
+    left: 30px;
+    font-size: 18px;
+    color: #eee;
+    z-index: 10;
+    margin: 0;
+}
+
+/* 글자가 잘 보이도록 이미지 하단에 그림자 넣기 (선택사항) */
+/* .photo::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    z-index: 5;
+} */

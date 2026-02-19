@@ -1,0 +1,111 @@
+.likeGameInner {
+    margin-top: 127px;
+}
+.likeGame {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.LikeMAinGame {
+    display: flex;
+}
+.LikeMAinGame .content-box {
+    display: block;
+    width: 934px;
+    height: 600px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.LikeMAinGame .content-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.LikeMAinGame .content-box .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 60px 52px;
+    height: 40%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #3f4769 100%);
+}
+.LikeMAinGame .content-box .content .text-group {
+    color: #fff;
+}
+.LikeMAinGame .content-box .content .text-group .title {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+}
+.LikeMAinGame .content-box .content .text-group .desc {
+    opacity: 0.92;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.52px;
+}
+.LikeMAinGame .content-box .content .btn-game {
+    display: flex;
+    width: 106px;
+    height: 37px;
+    /* padding: 8px 75px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 0 10px;
+    background: #7eff50;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+    text-decoration: none;
+}
+
+/* smallGame */
+
+.LikeSmallGame {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.LikeSmallGame .content-box {
+    display: flex;
+    width: 290px;
+    height: 136px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+.LikeSmallGame .content-box a {
+    text-decoration: none;
+}
+.LikeSmallGame img {
+    width: 100%;
+    object-fit: cover;
+}
+.LikeSmallGame .content {
+    border-radius: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    padding: 13px 11px;
+}
+
+.LikeSmallGame .title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}

@@ -1,0 +1,10 @@
+.SubPagewrap {
+   background: #181818;
+   width: 100%;
+}
+
+
+
+.SubPageInner {
+   background: linear-gradient(180deg, rgba(67, 196, 21, 0.8) -20%, #181818 4.25%);
+}

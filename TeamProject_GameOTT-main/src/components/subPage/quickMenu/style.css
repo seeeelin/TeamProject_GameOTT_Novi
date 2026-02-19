@@ -1,0 +1,59 @@
+/* QuickMenu 전체 래퍼 */
+.quick-menu-wrap {
+    padding: 96px 0;
+    width: 100%;
+
+
+}
+
+.inner {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.quick-menu-wrap h3 {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.menu-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+/* 탭 메뉴 가로 정렬 */
+.tab-menu ul {
+    display: flex;
+    gap: 40px;
+    /* 메뉴 사이 간격 */
+    list-style: none;
+    padding: 0;
+    margin-top: 64px;
+
+}
+
+.tab-menu li a {
+    font-size: 36px;
+    color: #ffffff;
+    /* 비활성화 상태 색상 */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* 활성화된 메뉴 (.on) 스타일 */
+.tab-menu li.on a {
+    color: #7EFF50;
+    /* 시안의 시그니처 연두색 */
+    font-weight: bold;
+    border-bottom: 2px solid #7EFF50;
+    /* 하단 강조 선 */
+    padding-bottom: 8px;
+}
+
+.tab-menu li a:hover {
+    color: #fff;
+    /* 마우스 올렸을 때 강조 */
+}

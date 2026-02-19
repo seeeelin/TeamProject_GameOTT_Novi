@@ -1,0 +1,157 @@
+.communityWrapper {
+    padding-top: 127px;
+}
+
+.Community {
+    width: 100%;
+    position: relative;
+    margin-top: 32px;
+    overflow: hidden;
+}
+
+.communityContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.contentinner {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 200px;
+}
+
+.visualInfo {
+    align-items: bottom;
+}
+
+.visualInfo h3 {
+    color: #B1C7D0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Quantico;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: -1.6px;
+    margin-bottom: 30px;
+}
+
+.visualInfo .buttonGroup {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+
+.visualInfo .buttonGroup .button {
+    width: 156px;
+    /* height: 35px; */
+    padding: 8px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.visualInfo .buttonGroup .button.more {
+    color: #181818;
+    background: rgba(126, 255, 80, 0.80);
+}
+
+.visualInfo .buttonGroup .button.review {
+    color: #EBEBEB;
+    background: rgba(60, 85, 108, 0.80);
+}
+
+.visualInfo .buttonGroup .button.play {
+    width: 60px;
+    color: rgba(126, 255, 80, 0.80);
+    font-size: 30px;
+    transform: translateY(6px);
+}
+
+.CommunityUserReview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    width: 100%;
+    justify-content: center;
+    user-select: none;
+}
+
+.Community img {
+    width: 100%;
+    height: 800px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+.CommunityUserItem {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.CommunityUserItem .reviewText {
+    font-size: 16px;
+    line-height: 1.2;
+    word-break: keep-all;
+}
+
+
+.CommunityUserItem .UserInfo {
+    margin-top: auto;
+}
+
+.CommunityUserReview {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 700px;
+    gap: 32px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.CommunityUserReview .reviewItem {
+    width: 300px;
+    height: 200px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #fff;
+}

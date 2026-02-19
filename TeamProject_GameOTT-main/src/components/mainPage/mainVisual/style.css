@@ -1,0 +1,94 @@
+#visual {
+    height: 1000px;
+    width: 100%;
+    position: relative;
+}
+
+body {
+    background: #000;
+    font-family:
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide .inner {
+    position: absolute;
+    left: 50%;
+    bottom: 150px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper-slide .inner p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+
+
+.swiper-slide .inner .Gochip {
+    width: 138px;
+    height: 36px;
+    padding: 4px 16px;
+    border-radius: 20px;
+    background: rgba(93, 93, 93, 0.4);
+    backdrop-filter: blur(2px);
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide .inner .title {
+    margin: 10px 0;
+    height: 200px;
+    object-fit: contain;
+}
+
+.swiper-slide .inner .title01 {
+    width: 864px;
+    height: 100%;
+    margin: 20px 0;
+}
+
+.swiper-slide .inner .title02 {
+    width: 540px;
+}
+
+.swiper-slide .inner .title03 {
+    width: 960px;
+}
