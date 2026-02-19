@@ -1,0 +1,25 @@
+.sectionTitle {
+    display: flex;
+    gap: 16px;
+    justify-content: left;
+    align-items: center;
+}
+
+.sectionTitle h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+}
+
+.sectionTitle a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #7eff50;
+    font-size: 24px;
+}

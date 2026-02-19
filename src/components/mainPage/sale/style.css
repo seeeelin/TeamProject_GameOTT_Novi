@@ -1,0 +1,140 @@
+.Sale {
+    padding-top: 127px;
+}
+
+.saleItemWrapper {
+    padding-top: 32px;
+    width: 100%;
+    overflow: visible;
+    position: relative;
+}
+
+.saleItemWrapper a {
+    text-decoration: none;
+    outline: none;
+}
+
+.mySwiper {
+    overflow: visible !important;
+    width: 100%;
+}
+
+.swiper-slide {
+    background: none;
+    text-align: left;
+}
+
+.saleItem {
+    width: 582px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.saleItem .saleItemUp {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.saleItem img {
+    width: 100%;
+    height: 475px;
+    object-fit: cover;
+    display: block;
+}
+
+.saleItem .saleItemVisualInfo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 75.31%, #000 100%);
+}
+
+.salechipWrapper {
+    x: 50px;
+    y: -50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.salechip {
+    padding: 2px 16px;
+    justify-content: center;
+    border-radius: 30px;
+    background: #fcfdff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.saleItem .saleItemVisualInfo .saleRate {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.36px;
+    opacity: 0.67;
+    display: flex;
+    gap: 5px;
+    align-self: flex-start;
+}
+
+.saleItem .saleItemVisualInfo .saleRate span {
+    font-size: 18px;
+}
+
+.saleItem .saleItemInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box;
+    padding: 34px 31px;
+    justify-content: left;
+}
+
+.saleItem .saleItemInfo .gameTitle {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -0.68px;
+
+    gap: 8px;
+}
+
+.saleItem .saleItemInfo .gameDesc {
+    color: #a3a3a3;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.36px;
+}
+
+.saleItem .saleItemInfo .genreChip {
+    display: flex;
+    gap: 8px;
+}
+
+.saleItem .saleItemInfo .chip {
+    display: inline-flex;
+    height: 20px;
+    padding: 4px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: rgba(235, 235, 235, 0.14);
+    backdrop-filter: blur(2px);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}

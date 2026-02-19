@@ -1,0 +1,11 @@
+.MainPagewrap {
+    width: 100%;
+    position: relative;
+    background: var(--foundation-grey-grey-900-k, #181818);
+    background: linear-gradient(180deg,
+            #000 -0.1%,
+            #141414 10.96%,
+            #141414 82.74%,
+            #1e551a 113.75%);
+    overflow: hidden;
+}
