@@ -1,5 +1,5 @@
-import Footer from '../../common/footer/footer';
-import Header from '../../common/header/header';
+import Footer from '../../../common/footer/Footer';
+import Header from '../../common/header/Header';
 import BestPost from '../../components/subPage/bestPost/BestPost';
 import FanArt from '../../components/subPage/fanArt/FanArt';
 import Live from '../../components/subPage/Live/Live';
